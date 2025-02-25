@@ -1,0 +1,58 @@
+Body{
+    background-color: hsl(235, 18%, 26%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.Container {
+    display: flex;
+   
+    
+    flex-direction: column;
+    
+    width: 25vw;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 1%;
+    margin: 15% 25%;
+
+    padding: 1%;
+
+    border-radius: 5%;
+}
+
+.checkmark {
+    width: 10%;
+}
+
+.Container p, .Container h1, .Container button, .checkmark {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+button {
+    border-radius: 5%;
+    background-color: hsl(4, 100%, 67%);
+    color: white;
+    height: 3rem;
+    border: none;
+}
+
+
+@media (max-width: 767px) {
+    .Container {
+    width: 100%;
+    margin: 10% auto; 
+    padding: 25%;
+    }
+    
+    .checkmark {
+    width: 70%; 
+    }
+    
+    button {
+    height: 2.5rem; 
+    }
+    }
